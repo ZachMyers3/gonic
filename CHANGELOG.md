@@ -1,5 +1,26 @@
 # Changelog
 
+## [0.15.0](https://www.github.com/sentriz/gonic/compare/v0.14.0...v0.15.0) (2021-12-24)
+
+
+### Features
+
+* add CreatedAt to albums ([#159](https://www.github.com/sentriz/gonic/issues/159)) ([848d85d](https://www.github.com/sentriz/gonic/commit/848d85d26a4c2a6e83cd01c21e63080fdbb27cd8))
+* add multi folder support ([40cd031](https://www.github.com/sentriz/gonic/commit/40cd031b05c71d930b5d92ed6ebbbf676f5e219e)), closes [#50](https://www.github.com/sentriz/gonic/issues/50)
+* log all folders while scanning ([b2388e6](https://www.github.com/sentriz/gonic/commit/b2388e6d851c2192bda14eb7771c83ce75f493f9))
+* render local artist images for getArtistInfo2 ([cb6b33a](https://www.github.com/sentriz/gonic/commit/cb6b33a9fb69589bf73e33773c6f16bf073ce865))
+
+
+### Bug Fixes
+
+* add stub getStarred views to shut up refix ([27ac8e1](https://www.github.com/sentriz/gonic/commit/27ac8e1d25d9b58a8c71b9f7318a6b398f4a5865))
+* **ci:** set golangci-lint timeout ([48c34fd](https://www.github.com/sentriz/gonic/commit/48c34fdffc1c9bc47ce57d26b433dbbd775831a6))
+* don't send listenbrainz playing_now and submitted_at at the same time ([b07b9a8](https://www.github.com/sentriz/gonic/commit/b07b9a8be610a932d6c66839f020456ff136d2f6)), closes [#168](https://www.github.com/sentriz/gonic/issues/168)
+* make sure open cover and audio files are closed after use ([1d1ab11](https://www.github.com/sentriz/gonic/commit/1d1ab116cd331fb5dbce50051f61be42e771ff80))
+* render artistId in track types ([7ec6440](https://www.github.com/sentriz/gonic/commit/7ec6440ed2c95b0f38b8089c17dcd23a2d26bf23)), closes [#170](https://www.github.com/sentriz/gonic/issues/170)
+* show artist album count when searching by tags ([0c79044](https://www.github.com/sentriz/gonic/commit/0c790442f4fc0c53dd0c71c05b66c600db883b9a))
+* **subsonic:** route settings.view -> admin home ([f9133aa](https://www.github.com/sentriz/gonic/commit/f9133aac91e5f18473dc461a6f2ffd0417967465))
+
 ## [0.14.0](https://www.github.com/sentriz/gonic/compare/v0.13.1...v0.14.0) (2021-10-03)
 
 
